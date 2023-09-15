@@ -239,7 +239,7 @@ padding-top:11px;
     right: 0 !important;
 }
 .max_width-145{
-    max-width:145px;
+    max-width:145px !important;
 }
 .product_btn {
     padding: 15px 25px;
