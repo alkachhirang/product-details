@@ -144,6 +144,7 @@
 }
 .slider_box {
     height: 100%;
+    width: 100% !important;
     border-radius: 17px;
     border: 1px solid rgba(0, 0, 0, 0.12);
     background: #FFF;
@@ -229,6 +230,9 @@ padding-top:11px;
 .pointer_event_none {
     pointer-events: none;
 }
+.overflow_hiddden{
+    overflow: hidden !important;
+}
 @keyframes swing {
     0% {
         transform: scale(1);
@@ -268,7 +272,7 @@ padding-top:11px;
     }
 
     .cross .line {
-        transform: rotate(50deg) translate(17px, 14px);
+        transform: rotate(50deg) translate(17px, 18px);
     }
 
     .cross .line1 {
@@ -277,7 +281,7 @@ padding-top:11px;
     }
 
     .cross .line2 {
-        transform: rotate(-50deg) translateY(-50%);
+        transform: rotate(-52deg) translateY(-51%);
     }
 }
 @media (min-width:992px) {
