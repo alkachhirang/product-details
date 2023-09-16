@@ -25,10 +25,16 @@
     max-width: 90px !important;
 }
 .green_button {
-    border: 1px solid #28A745;
+    border:2px solid #28A745;
     border-radius: 21px;
     background: #28A745;
     padding: 10px 33px;
+}
+.green_button:hover{
+    background-color: white;
+    border: 2px solid #28A745 !important;
+    color:#28A745 !important;
+    transition: 0.3s linear !important;
 }
 .grey_box {
     max-width: 35px !important;
