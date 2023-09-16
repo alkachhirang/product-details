@@ -35,10 +35,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow_hiddden">
     <div class="overflow_hiddden">
         <!-- preloader -->
         <div>
@@ -76,23 +76,29 @@
                                         class="text-black ff_roboto fw-400 fs_18">HOME</a>
                                 </li>
                                 <li>
-                                    <a onclick="opennav()" href="#SNEAKERS KOPEN" class="text-black ff_roboto fw-400 fs_18 text-nowrap">SNEAKERS KOPEN</a>
+                                    <a onclick="opennav()" href="#SNEAKERS KOPEN"
+                                        class="text-black ff_roboto fw-400 fs_18 text-nowrap">SNEAKERS KOPEN</a>
                                 </li>
                                 <li>
-                                    <a onclick="opennav()" href="#INTERVIEWS" class="text-black ff_roboto fw-400 fs_18">INTERVIEWS</a>
+                                    <a onclick="opennav()" href="#INTERVIEWS"
+                                        class="text-black ff_roboto fw-400 fs_18">INTERVIEWS</a>
                                 </li>
                                 <li>
-                                    <a onclick="opennav()" href="#SALE" class="text-black ff_roboto fw-400 fs_18">SALE</a>
+                                    <a onclick="opennav()" href="#SALE"
+                                        class="text-black ff_roboto fw-400 fs_18">SALE</a>
                                 </li>
                                 <li>
-                                    <a onclick="opennav()" href="#SNEAKER VAN DE" class="text-black ff_roboto fw-400 fs_18 text-nowrap">SNEAKER VAN DE
+                                    <a onclick="opennav()" href="#SNEAKER VAN DE"
+                                        class="text-black ff_roboto fw-400 fs_18 text-nowrap">SNEAKER VAN DE
                                         DAG</a>
                                 </li>
                                 <li>
-                                    <a onclick="opennav()" href="#SNEAKER FORUM" class="text-black ff_roboto fw-400 fs_18 text-nowrap">SNEAKER FORUM</a>
+                                    <a onclick="opennav()" href="#SNEAKER FORUM"
+                                        class="text-black ff_roboto fw-400 fs_18 text-nowrap">SNEAKER FORUM</a>
                                 </li>
                                 <li>
-                                    <a onclick="opennav()" href="#BLOG" class="text-black ff_roboto fw-400 fs_18">BLOG</a>
+                                    <a onclick="opennav()" href="#BLOG"
+                                        class="text-black ff_roboto fw-400 fs_18">BLOG</a>
                                 </li>
                             </ul>
                         </div>
@@ -106,7 +112,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-12">
                         <div>
-                            <img src="./assets/images/png/red-shoe-img.png" alt="red-shoe" class="w-100 max_width_624" data-aos="fade-right">
+                            <img src="./assets/images/png/red-shoe-img.png" alt="red-shoe" class="w-100 max_width_624"
+                                data-aos="fade-right">
                             <div class="mt-4">
                                 <div class="slick_slider">
                                     <div>
@@ -129,7 +136,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-12 d-flex align-items-center justify-content-center mt-5" data-aos="fade-left">
+                    <div class="col-xl-6 col-12 d-flex align-items-center justify-content-center mt-5"
+                        data-aos="fade-left">
                         <div>
                             <h3 class="ff_poppins fw_600 fs_30 text-black pb-3">PREMIUM MENS SPORTS LATHER KEDS</h3>
                             <div class="d-flex align-items-center pb-3 mb-2">
@@ -900,7 +908,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
             integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             function opennav() {
                 document.getElementById("navbar").classList.toggle("start-0");
@@ -929,7 +937,6 @@
                 display.innerHTML = count;
             };
         </script>
-
         <script>
             $('.responsive').slick({
                 dots: false,
@@ -1052,7 +1059,7 @@
                 console.log("Delayed for 3 second.");
                 document.getElementById("preloader").classList.add("opacity-0")
                 document.getElementById("preloader").classList.add("pointer_event_none")
-                document.body.classList.remove("overflow-hidden")
+                document.body.classList.remove("overflow_hiddden")
             }, 5000);
         </script>
     </div>
