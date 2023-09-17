@@ -26,7 +26,7 @@
 }
 .green_button {
     border:2px solid #28A745;
-    border-radius: 21px;
+    border-radius:50px;
     background: #28A745;
     padding: 10px 33px;
 }
@@ -66,6 +66,7 @@
 .mr_26 {
     margin-right: 26px;
 }
+
 .mr_20 {
     margin-right: 20px;
 }
@@ -106,8 +107,8 @@
 .nav-pills .nav-link {
     border-radius: 0 !important;
 }
-.lh_37 {
-    line-height: 37px;
+.lh_29 {
+    line-height:29px;
 }
 .nav-link {
     margin-right: 90px !important;
@@ -136,8 +137,11 @@
 .card_content {
     padding: 28px 19px;
 }
+.slick-track{
+    padding-bottom: 10px !important;
+}
 .price_btn {
-    border-radius: 6.533px;
+    border-radius:13px;
     border: 0.311px solid #e8e8e8;
     background: #28a745;
     padding: 4px 10px 3px 11px;
@@ -162,13 +166,6 @@
 .slick-slide {
     height: inherit !important;
     display: flex !important;
-}
-.foot_locker_box {
-    width: 312px;
-    height: 488px;
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.20);
 }
 .size_button{
     border-radius: 40px;
@@ -200,16 +197,19 @@ padding-top:11px;
     right: 0 !important;
 }
 .product_btn {
-    padding: 15px 25px;
+    padding: 15px 23px;
     border-radius: 9.219px;
     border: inherit;
     color: black;
     background: #fff;
     box-shadow: 3px 5px 22px 0px rgba(0, 0, 0, 0.08);
 }
-.px_12{
-    padding-left: 12px;
-    padding-right: 12px;
+.px_15{
+    /* padding-left:8px; */
+    padding-right:15px;
+}
+.gap_45{
+    gap: 45px !important;
 }
 .product_btn:hover {
     background: #f40;
@@ -218,9 +218,9 @@ padding-top:11px;
     border: inherit;
 }
 .next_btn {
-    padding: 12px 18px;
+    padding: 12px 17px;
     border-radius: 9px;
-    border: 1px solid #9c9c9c;
+    border: 1px solid #9c9c9c !important;
     background: rgba(196, 196, 196, 0);
 }
 .animation {
@@ -350,4 +350,9 @@ padding-top:11px;
     .foot_locker {
         padding: 20px 30px;
     }
+}
+@media (min-width:768px) {
+    .lh-lg_37 {
+            line-height:37px !important;
+        }
 }

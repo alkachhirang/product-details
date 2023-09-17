@@ -26,6 +26,8 @@
   --bg-light-black:#171717;
   --bg-white:#ffffff;
   --clr-black:#555555;
+  --clr-grey:#9c9c9c;
+  --clr-brownish:#454729;
 }
 
 /* font-famlies */
@@ -39,7 +41,12 @@
     font-family: 'Josefin Sans', sans-serif;
  }
 
-
+.clr_grey{
+    color: var(--clr-grey);
+}
+.clr_brownish{
+    color: var(--clr-brownish);
+}
 .text_grey{
     color: var(--grey);
 }
@@ -114,7 +121,7 @@
             /* font-size */
             --fs-sm: 18px;
             --fs-2sm: 16px;
-            --fs-md: 20px;
+            --fs-md:16px;
             --fs-2md: 25px;
             --fs-xl: 24px;
             --fs-xxl:28px;
@@ -126,7 +133,7 @@
             /* font-size */
             --fs-sm: 18px;
             --fs-2sm: 16px;
-            --fs-md: 20px;
+            --fs-md:16px;
             --fs-2md: 25px;
             --fs-xl: 24px;
             --fs-xxl:22px;
