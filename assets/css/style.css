@@ -372,6 +372,9 @@
         .pt_lg-130 {
             padding-top: 130px !important;
         }
+                .pb_lg-70{
+                    padding-bottom:70px;
+                }
 }
 
 @media (min-width:1400px) {
