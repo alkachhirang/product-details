@@ -370,7 +370,7 @@
         max-width: 1315px;
     }
         .pt_lg-130 {
-            padding-top: 130px;
+            padding-top: 130px !important;
         }
 }
 
